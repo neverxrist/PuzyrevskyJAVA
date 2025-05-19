@@ -86,7 +86,7 @@ public class AstonTest {
         }
         try {
             if (a == 0) {
-                throw new ArithmeticException("b=0, а на ноль делить нельзя");
+                throw new ArithmeticException("a=0, а на ноль делить нельзя");
             }
             double divba = (double) b / a;
             System.out.println("Частное b/a = " + divba);
